@@ -6,4 +6,6 @@ public class Config {
     public static final String INPUT_WEBPAGES = "webpages_konst";
     public static final String INPUT_WEBSITES = "websites_konst";
     public static final String OUTPUT_WEBPAGES = "correct_webpages_konst";
+
+    public static final int COUNT_REDUCERS = 2;
 }
