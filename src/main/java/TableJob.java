@@ -133,12 +133,10 @@ public class TableJob extends Configured implements Tool {
                     String disFlag = parts[2];
 
                     boolean isDis = false;
-                    Pair<String, String> pair_tmp = new Pair<>("-", "-");
                     if (robotsExsits) {
                         for (Pair<String, String> pair : rules) {
                             isDis = checkUrl(url, pair);
                             if (isDis) {
-                                pair_tmp = pair;
                                 break;
                             }
                         }
